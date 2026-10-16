@@ -1,0 +1,98 @@
+/* ───────── Design tokens (MBB colour style variation) ─────────
+   Values are matched from the Figma screenshot. Replace with Dev Mode
+   values from Figma if anything is off by a shade. */
+:root {
+  /* type */
+  --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --fs-xs: 11px;
+  --fs-sm: 12px;
+  --fs-md: 13px;
+  --fs-base: 14px;
+  --fs-lg: 16px;
+  --fs-xl: 20px;
+  --fs-2xl: 26px;
+
+  /* surfaces */
+  --bg-page: #f2f3f7;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f6f7fb;
+  --border: #e6e8f0;
+  --border-strong: #d7dae6;
+
+  /* text */
+  --text: #141a33;
+  --text-2: #4f5670;
+  --text-3: #8e94ab;
+  --text-inverse: #ffffff;
+
+  /* brand */
+  --primary: #3445e5;
+  --primary-hover: #2a39c8;
+  --primary-50: #eef0fd;
+  --primary-100: #e2e5fb;
+  --primary-200: #c9cdf5;
+
+  /* navy header */
+  --navy-950: #070d2b;
+  --navy-900: #0c1540;
+  --navy-800: #16225a;
+  --navy-glow: #2f6bff;
+
+  /* data colours */
+  --c-ease: #3445e5;
+  --c-emotion: #34b5a2;
+  --c-effectiveness: #b3b8ee;
+  --c-trend: #4cb9a8;
+  --ring-track: #eceef5;
+  --bar-track: #eef0f6;
+  --bar-fill: #cdd1f4;
+  --bar-fill-hover: #bcc1f0;
+
+  /* status */
+  --success: #17955f;
+  --success-bg: #e6f6ee;
+  --danger: #d43f3f;
+  --danger-bg: #fdecec;
+  --live: #3ddc84;
+
+  /* severity (Needs Attention + funnel status) */
+  --critical: #d23c3c;
+  --critical-bg: #fdf2f2;
+  --critical-border: #f5dcdc;
+  --at-risk: #c98a0e;
+  --at-risk-bg: #fdf8e6;
+  --at-risk-border: #f3e6b8;
+  --watch: #2c8f84;
+  --watch-bg: #eef6f5;
+  --watch-border: #d3e8e5;
+  --on-track: #17955f;
+
+  /* Needs Attention card gradients (tint at top → neutral at bottom) */
+  --critical-tint: #fbe6e3;
+  --at-risk-tint: #fbf0d2;
+  --watch-tint: #def2ec;
+  --attention-fade: #f6f7f9;
+
+  /* shape */
+  --radius-xl: 20px;
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  --radius-pill: 999px;
+
+  /* elevation */
+  --shadow-card: 0 1px 2px rgba(17, 24, 66, 0.04), 0 6px 20px rgba(17, 24, 66, 0.05);
+  --shadow-pop: 0 8px 24px rgba(10, 16, 50, 0.18);
+
+  /* spacing */
+  --sp-1: 4px;
+  --sp-2: 8px;
+  --sp-3: 12px;
+  --sp-4: 16px;
+  --sp-5: 20px;
+  --sp-6: 24px;
+  --sp-8: 32px;
+
+  --sidebar-w: 232px;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
